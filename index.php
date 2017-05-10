@@ -8,7 +8,7 @@
 <body>
 
 	<div class="marco">
-		<img src="images/portada1.jpg" style="width: 100%; height: auto;" />
+		
 		<?php
 		$servername = "us-cdbr-iron-east-03.cleardb.net";
 		$username = "b74ba3320e82ec";
@@ -27,7 +27,7 @@
 	
 		<table>
 	
-		
+		<img src="images/portada1.jpg" style="width: 100%; height: auto;" />
 		<tr>
 		  <?php while($row = $result->fetch_assoc()) { ?>
 		  	
